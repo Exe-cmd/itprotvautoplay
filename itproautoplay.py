@@ -13,6 +13,8 @@ video=1
 #videoTime=[540,1334,1740,1200,1680]
 
 #Install Chome Driver and open itpro.tv in chrome
+#Install chromedriver https://chromedriver.chromium.org/downloads
+#save to rename path to where your chromedriver is located
 driver = webdriver.Chrome(executable_path='/home/executables/Desktop/chromedriver')
 driver.get(url)
 
